@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import history from "./history";
 import Login from "./pages/Login";
 import Shops from "./pages/shops/Shops";
-import Newshop from "./pages/shops/NewShop";
+import ProductDetails from "./pages/shops/ProductDetails";
 import Header from "./components/Header";
 import {
   BrowserRouter as Router,
@@ -18,8 +18,8 @@ function App() {
     <div>
       <div className="mainwrapper">
         <Header />
-        <Route path="/shops" component={Shops} />
-        <Route path="/add-new-shop" component={Newshop} />
+        <Route path="/shop" component={Shops} />
+        <Route path="/product-details" component={ProductDetails} />
       </div>
     </div>
   );

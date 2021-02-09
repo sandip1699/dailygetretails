@@ -1,0 +1,28 @@
+/* header  */
+ @media (min-width: 1200px) {
+    body .container, body .container-lg, body .container-md, body .container-sm, body .container-xl {
+         max-width: 1200px;
+     }
+ }
+ body .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight:600;
+}
+.socialicons svg {font-size:22px; color: #000;}
+ body .btn-primary {
+     background-color: #00E1A1;
+     border-color: #00E1A1;
+     color: #fff;
+ }
+ body .btn-info {
+     background-color: #1D1848;
+     border-color: #1D1848;
+     color: #fff;
+ }
+ body .btn-primary:hover {
+     background-color: #23f1b7;
+     border-color: #23f1b7;
+     color: #fff;
+ }
+
+
