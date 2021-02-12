@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "product_name": "The Scenes Superette",
+        "category": "Fashion",
+        "image": "/images/caps.png",
+        "sell-price": "₹2,340",
+        "regular-price": "₹4,500"
+    },
+    {
+        "id": "1",
+        "product_name": "The Scenes Superette",
+        "category": "Fashion",
+        "image": "/images/caps.png",
+        "sell-price": "₹2,340",
+        "regular-price": "₹4,500"
+    },
+    {
+        "id": "1",
+        "product_name": "The Scenes Superette",
+        "category": "Fashion",
+        "image": "/images/caps.png",
+        "sell-price": "₹2,340",
+        "regular-price": "₹4,500"
+    }
+]

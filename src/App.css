@@ -14,15 +14,98 @@
      border-color: #00E1A1;
      color: #fff;
  }
+ body .btn-primary:hover,  body .btn-primary:focus, body .btn-primary:visited {
+  background-color: #07cf97;
+  border-color: #07cf97;
+  color: #fff;
+  
+}
+body .btn-primary:focus {outline: none; box-shadow: none;}
  body .btn-info {
      background-color: #1D1848;
      border-color: #1D1848;
      color: #fff;
  }
- body .btn-primary:hover {
-     background-color: #23f1b7;
-     border-color: #23f1b7;
-     color: #fff;
- }
 
+ body .text-secondary {color: #1D1848 !important;}
+ body .text-primary {color: #00E1A1 !important;}
 
+ .hs-product {
+    border: 1px solid #eee;
+    position: relative;
+    overflow: hidden; width: 100%;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.0);
+    transition: all 0.3s ease 0s;
+  }
+  .hs-product:hover {
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.12);
+  }
+  .pro-meta {
+    padding: 10px;
+  }
+  .hoverbtn {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    right: 0;
+}
+.hoverbtn .btn {
+  border-radius: 25px;
+  min-width: 142px;
+  font-weight: 600;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.12);
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+}
+.hs-product:hover .hoverbtn .btn {opacity: 1; }
+  .product .price {
+    display: flex;
+  }
+  .reg-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  .sell-price {
+    margin-right: 8px;
+    color: #1d1848;
+    font-weight: 700;
+}
+  .pro-meta h4 {
+    color: #1D1848;
+    font-size:17px;
+    font-weight: bold;
+}
+.cat-name {
+  font-size: 13px;
+  color: #777777;
+}
+.product_action {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.product_action .btn {
+  margin-bottom: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #1D1848;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.12);
+  transition: all 0.3s ease 0s;
+  transform: translate(80px, 0px);
+}
+.hs-product:hover .product_action .btn {transform: translate(0px, 0px);}
+.product_action .btn:hover {background-color: #1D1848; color: #ffffff; border-color: #1D1848;}
+.hs-product a:hover {text-decoration: none;}
